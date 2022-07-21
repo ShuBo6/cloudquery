@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/cloudquery/cloudquery/cmd/utils"
-	"github.com/cloudquery/cloudquery/internal/analytics"
+	"github.com/cloudquery/cloudquery/no_internal/analytics"
 	"github.com/cloudquery/cloudquery/pkg/core"
 	"github.com/cloudquery/cloudquery/pkg/ui"
 	"github.com/cloudquery/cq-provider-sdk/helpers/limit"

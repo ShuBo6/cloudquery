@@ -5,7 +5,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/cloudquery/cloudquery/internal/logging"
+	"github.com/cloudquery/cloudquery/no_internal/logging"
 	"github.com/cloudquery/cloudquery/pkg/core/database"
 	"github.com/cloudquery/cloudquery/pkg/plugin"
 	"github.com/cloudquery/cloudquery/pkg/plugin/registry"

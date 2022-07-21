@@ -9,9 +9,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/cloudquery/cloudquery/internal/analytics"
-	"github.com/cloudquery/cloudquery/internal/firebase"
-	"github.com/cloudquery/cloudquery/internal/getter"
+	"github.com/cloudquery/cloudquery/no_internal/analytics"
+	"github.com/cloudquery/cloudquery/no_internal/firebase"
+	"github.com/cloudquery/cloudquery/no_internal/getter"
 	"github.com/cloudquery/cloudquery/pkg/config"
 	"github.com/cloudquery/cloudquery/pkg/core"
 	"github.com/cloudquery/cloudquery/pkg/core/database"

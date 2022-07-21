@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cloudquery/cloudquery/internal/getter"
+	"github.com/cloudquery/cloudquery/no_internal/getter"
 )
 
 type Policies []*Policy

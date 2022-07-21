@@ -4,8 +4,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cloudquery/cloudquery/internal/logging"
-	"github.com/cloudquery/cloudquery/internal/persistentdata"
+	"github.com/cloudquery/cloudquery/no_internal/logging"
+	"github.com/cloudquery/cloudquery/no_internal/persistentdata"
 	"github.com/cloudquery/cloudquery/pkg/plugin/registry"
 	"github.com/cloudquery/cq-provider-sdk/provider/diag"
 	"github.com/google/uuid"

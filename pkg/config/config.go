@@ -6,7 +6,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/cloudquery/cloudquery/internal/logging"
+	"github.com/cloudquery/cloudquery/no_internal/logging"
 	"github.com/xo/dburl"
 )
 

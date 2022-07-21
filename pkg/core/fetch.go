@@ -10,8 +10,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cloudquery/cloudquery/internal/analytics"
-	cqsort "github.com/cloudquery/cloudquery/internal/sort"
+	"github.com/cloudquery/cloudquery/no_internal/analytics"
+	cqsort "github.com/cloudquery/cloudquery/no_internal/sort"
 	"github.com/cloudquery/cloudquery/pkg/config"
 	"github.com/cloudquery/cloudquery/pkg/core/database"
 	"github.com/cloudquery/cloudquery/pkg/core/state"

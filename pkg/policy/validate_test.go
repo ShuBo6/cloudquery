@@ -5,7 +5,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/cloudquery/cloudquery/internal/test"
+	"github.com/cloudquery/cloudquery/no_internal/test"
 	"github.com/cloudquery/cloudquery/pkg/core/database"
 	"github.com/cloudquery/cq-provider-sdk/provider/diag"
 	"github.com/stretchr/testify/assert"

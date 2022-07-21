@@ -11,8 +11,8 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/cloudquery/cloudquery/internal"
-	"github.com/cloudquery/cloudquery/internal/logging"
+	"github.com/cloudquery/cloudquery/no_internal"
+	"github.com/cloudquery/cloudquery/no_internal/logging"
 	"github.com/cloudquery/cloudquery/pkg/core/state"
 	"github.com/cloudquery/cq-provider-sdk/provider/diag"
 	"github.com/hashicorp/go-hclog"
@@ -268,9 +268,9 @@ func (e *Executor) createCheckResult(ctx context.Context, policyExecution *state
 		if len(r.AdditionalData) > 0 {
 			m["data"] = r.AdditionalData
 		}
-		m = internal.FlattenRow(m)
+		m = no_internal.FlattenRow(m)
 		if len(r.Identifiers) > 0 {
-			m["cq_identifiers"] = internal.FlattenRow(r.Identifiers)
+			m["cq_identifiers"] = no_internal.FlattenRow(r.Identifiers)
 		}
 		if r.Reason != "" {
 			m["cq_reason"] = r.Reason

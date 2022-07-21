@@ -1,4 +1,4 @@
-package internal
+package no_internal
 
 // FlattenRow flattens a row map and skips empty columns
 func FlattenRow(m map[string]interface{}) map[string]interface{} {
