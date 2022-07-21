@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/cloudquery/cloudquery/no_internal/getter"
-	"github.com/cloudquery/cloudquery/pkg/policy"
-	"github.com/cloudquery/cloudquery/pkg/ui"
+	"github.com/ShuBo6/cloudquery/no_internal/getter"
+	"github.com/ShuBo6/cloudquery/pkg/policy"
+	"github.com/ShuBo6/cloudquery/pkg/ui"
 	"github.com/cloudquery/cq-provider-sdk/provider/diag"
 	"github.com/fatih/color"
 	"github.com/olekukonko/tablewriter"

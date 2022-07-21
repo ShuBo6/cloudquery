@@ -1,4 +1,4 @@
-PACKAGE_NAME  := github.com/cloudquery/cloudquery
+PACKAGE_NAME  := github.com/ShuBo6/cloudquery
 
 .PHONY: build
 build:

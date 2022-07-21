@@ -3,10 +3,10 @@ package provider
 import (
 	"fmt"
 
-	"github.com/cloudquery/cloudquery/cmd/utils"
-	"github.com/cloudquery/cloudquery/pkg/errors"
-	"github.com/cloudquery/cloudquery/pkg/ui"
-	"github.com/cloudquery/cloudquery/pkg/ui/console"
+	"github.com/ShuBo6/cloudquery/cmd/utils"
+	"github.com/ShuBo6/cloudquery/pkg/errors"
+	"github.com/ShuBo6/cloudquery/pkg/ui"
+	"github.com/ShuBo6/cloudquery/pkg/ui/console"
 	"github.com/cloudquery/cq-provider-sdk/provider/diag"
 	"github.com/spf13/cobra"
 )

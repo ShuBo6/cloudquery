@@ -6,8 +6,8 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/cloudquery/cloudquery/no_internal/logging"
-	"github.com/cloudquery/cloudquery/pkg/plugin/registry"
+	"github.com/ShuBo6/cloudquery/no_internal/logging"
+	"github.com/ShuBo6/cloudquery/pkg/plugin/registry"
 	"github.com/cloudquery/cq-provider-sdk/cqproto"
 	"github.com/cloudquery/cq-provider-sdk/serve"
 	"github.com/hashicorp/go-plugin"

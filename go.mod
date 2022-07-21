@@ -1,4 +1,4 @@
-module github.com/cloudquery/cloudquery
+module github.com/ShuBo6/cloudquery
 
 go 1.17
 

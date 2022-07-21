@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/cloudquery/cloudquery/cmd"
+	"github.com/ShuBo6/cloudquery/cmd"
 )
 
 func main() {

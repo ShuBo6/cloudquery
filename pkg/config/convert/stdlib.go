@@ -4,7 +4,7 @@ import (
 	"io/ioutil"
 	"path/filepath"
 
-	"github.com/cloudquery/cloudquery/no_internal/file"
+	"github.com/ShuBo6/cloudquery/no_internal/file"
 	hcl "github.com/hashicorp/hcl/v2"
 	"github.com/zclconf/go-cty/cty"
 	"github.com/zclconf/go-cty/cty/function"

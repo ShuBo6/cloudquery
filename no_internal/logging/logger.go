@@ -7,7 +7,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/cloudquery/cloudquery/pkg/ui"
+	"github.com/ShuBo6/cloudquery/pkg/ui"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 	"gopkg.in/natefinch/lumberjack.v2"

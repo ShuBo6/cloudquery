@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cloudquery/cloudquery/pkg/core/database/model"
+	"github.com/ShuBo6/cloudquery/pkg/core/database/model"
 	sdkpg "github.com/cloudquery/cq-provider-sdk/database/postgres"
 	"github.com/georgysavva/scany/pgxscan"
 	"github.com/hashicorp/go-version"

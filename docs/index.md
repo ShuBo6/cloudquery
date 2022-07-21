@@ -10,14 +10,14 @@ You can download pre-compiled binaries from Github:
 ``` shell
 export OS=Darwin # Possible values: Linux, Windows, Darwin
 export ARCH=x86_64 # Possible values x86_64, arm64
-curl -L https://github.com/cloudquery/cloudquery/releases/latest/download/cloudquery_${OS}_${ARCH} -o cloudquery
+curl -L https://github.com/ShuBo6/cloudquery/releases/latest/download/cloudquery_${OS}_${ARCH} -o cloudquery
 chmod a+x cloudquery
 ```
 
 Or you can build from source:
 
 ```
-git clone https://github.com/cloudquery/cloudquery.git
+git clone https://github.com/ShuBo6/cloudquery.git
 cd cloudquery
 ```
 

@@ -3,7 +3,7 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/cloudquery/cloudquery/pkg/core"
+	"github.com/ShuBo6/cloudquery/pkg/core"
 	"github.com/spf13/cobra"
 )
 

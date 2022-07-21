@@ -1,6 +1,6 @@
 <p align="center">
 <a href="https://cloudquery.io">
-<img alt="cloudquery logo" width=75% src="https://github.com/cloudquery/cloudquery/raw/main/docs/images/logo.png" />
+<img alt="cloudquery logo" width=75% src="https://github.com/ShuBo6/cloudquery/raw/main/docs/images/logo.png" />
 </a>
 </p>
 
@@ -20,7 +20,7 @@ CloudQuery key use-cases and features:
 ### Links
 
 - Homepage: https://cloudquery.io
-- Releases: https://github.com/cloudquery/cloudquery/releases
+- Releases: https://github.com/ShuBo6/cloudquery/releases
 - Documentation: https://docs.cloudquery.io
 - Hub (Provider and schema docs): https://hub.cloudquery.io/
 
@@ -28,7 +28,7 @@ CloudQuery key use-cases and features:
 
 Check out https://hub.cloudquery.io.
 
-If you want us to add a new provider or resource please open an [Issue](https://github.com/cloudquery/cloudquery/issues).
+If you want us to add a new provider or resource please open an [Issue](https://github.com/ShuBo6/cloudquery/issues).
 
 See [docs](https://docs.cloudquery.io/docs/developers/developing-new-provider) for developing new provider.
 

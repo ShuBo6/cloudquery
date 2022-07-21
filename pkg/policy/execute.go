@@ -11,9 +11,9 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/cloudquery/cloudquery/no_internal"
-	"github.com/cloudquery/cloudquery/no_internal/logging"
-	"github.com/cloudquery/cloudquery/pkg/core/state"
+	"github.com/ShuBo6/cloudquery/no_internal"
+	"github.com/ShuBo6/cloudquery/no_internal/logging"
+	"github.com/ShuBo6/cloudquery/pkg/core/state"
 	"github.com/cloudquery/cq-provider-sdk/provider/diag"
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/go-version"

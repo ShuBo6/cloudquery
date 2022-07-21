@@ -8,7 +8,7 @@ import (
 	"os"
 	"sync"
 
-	"github.com/cloudquery/cloudquery/pkg/ui"
+	"github.com/ShuBo6/cloudquery/pkg/ui"
 	"github.com/spf13/afero"
 )
 

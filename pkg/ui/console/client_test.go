@@ -7,7 +7,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/cloudquery/cloudquery/no_internal/analytics"
+	"github.com/ShuBo6/cloudquery/no_internal/analytics"
 	"github.com/google/uuid"
 )
 

@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/cloudquery/cloudquery/pkg/config"
+	"github.com/ShuBo6/cloudquery/pkg/config"
 	"github.com/stretchr/testify/assert"
 )
 

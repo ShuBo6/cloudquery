@@ -7,7 +7,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/cloudquery/cloudquery/no_internal/firebase"
+	"github.com/ShuBo6/cloudquery/no_internal/firebase"
 )
 
 type HubDetector struct {

@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cloudquery/cloudquery/no_internal/logging"
-	"github.com/cloudquery/cloudquery/pkg/core/database"
-	"github.com/cloudquery/cloudquery/pkg/core/state"
+	"github.com/ShuBo6/cloudquery/no_internal/logging"
+	"github.com/ShuBo6/cloudquery/pkg/core/database"
+	"github.com/ShuBo6/cloudquery/pkg/core/state"
 	sdkdb "github.com/cloudquery/cq-provider-sdk/database"
 	"github.com/cloudquery/cq-provider-sdk/provider/diag"
 	"github.com/cloudquery/cq-provider-sdk/provider/execution"

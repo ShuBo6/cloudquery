@@ -4,9 +4,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cloudquery/cloudquery/no_internal/logging"
-	"github.com/cloudquery/cloudquery/no_internal/persistentdata"
-	"github.com/cloudquery/cloudquery/pkg/plugin/registry"
+	"github.com/ShuBo6/cloudquery/no_internal/logging"
+	"github.com/ShuBo6/cloudquery/no_internal/persistentdata"
+	"github.com/ShuBo6/cloudquery/pkg/plugin/registry"
 	"github.com/cloudquery/cq-provider-sdk/provider/diag"
 	"github.com/google/uuid"
 	"github.com/modern-go/reflect2"

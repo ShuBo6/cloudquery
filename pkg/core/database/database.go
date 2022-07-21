@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/cloudquery/cloudquery/pkg/core/database/model"
-	"github.com/cloudquery/cloudquery/pkg/core/database/postgres"
+	"github.com/ShuBo6/cloudquery/pkg/core/database/model"
+	"github.com/ShuBo6/cloudquery/pkg/core/database/postgres"
 	sdkdb "github.com/cloudquery/cq-provider-sdk/database"
 	"github.com/cloudquery/cq-provider-sdk/provider/schema"
 )

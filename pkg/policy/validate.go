@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"path"
 
-	"github.com/cloudquery/cloudquery/pkg/core/database"
+	"github.com/ShuBo6/cloudquery/pkg/core/database"
 	"github.com/cloudquery/cq-provider-sdk/provider/diag"
 	"github.com/jackc/pgconn"
 	"github.com/jackc/pgerrcode"

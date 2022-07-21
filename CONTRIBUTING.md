@@ -25,7 +25,7 @@ The following is a set of guidelines for contributing to this repository.
 
 ## Code of Conduct
 
-This project and everyone participating in it is governed by the [CloudQuery Code of Conduct](https://github.com/cloudquery/cloudquery/blob/main/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. To report inappropriate behavior in violation of the code, please start by reaching out to us on our [Discord channel](https://cloudquery.io/discord).
+This project and everyone participating in it is governed by the [CloudQuery Code of Conduct](https://github.com/ShuBo6/cloudquery/blob/main/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. To report inappropriate behavior in violation of the code, please start by reaching out to us on our [Discord channel](https://cloudquery.io/discord).
 
 
 ## I don't want to read this whole thing I just have a question!!!
@@ -43,7 +43,7 @@ CloudQuery has a pluggable architecture and is using the go-plugin to load, run,
 
 ### Breakdown of Responsibilities and Repositories
 
-#### CQ Core [Repo](https://github.com/cloudquery/cloudquery):
+#### CQ Core [Repo](https://github.com/ShuBo6/cloudquery):
 - Main entry point and CLI for the user
 - Reading CloudQuery configuration
 - Downloading, verifying, and running providers
@@ -77,7 +77,7 @@ Before creating bug reports, please check [this list](#before-submitting-a-bug-r
 
 #### Before Submitting a Bug Report
 * **Determine [which repository the problem should be reported in](#break-down-of-responsibilities-and-repositories)**
-* **Perform a [cursory search](https://github.com/cloudquery/cloudquery/issues)** to see if the problem has already been reported. If it has **and the issue is still open**, add a comment to the existing issue instead of opening a new one
+* **Perform a [cursory search](https://github.com/ShuBo6/cloudquery/issues)** to see if the problem has already been reported. If it has **and the issue is still open**, add a comment to the existing issue instead of opening a new one
 
 #### How Do I Submit a (Good) Bug Report?
 
