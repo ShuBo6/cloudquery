@@ -76,25 +76,25 @@ func CreateClientFromConfig(ctx context.Context, cfg *config.Config, instanceId 
 		return nil, errors.New("connection configuration is not set")
 	}
 
-	var progressUpdater ui.Progress
+	//var progressUpdater ui.Progress
 
-	if ui.DoProgress() {
-		progressUpdater = NewProgress(ctx, func(o *ProgressOptions) {
-			o.AppendDecorators = []decor.Decorator{decor.Percentage()}
-		})
-	}
-	hub := registry.NewRegistryHub(firebase.CloudQueryRegistryURL, registry.WithPluginDirectory(cfg.CloudQuery.PluginDirectory), registry.WithProgress(progressUpdater))
+	//if ui.DoProgress() {
+	//	progressUpdater = NewProgress(ctx, func(o *ProgressOptions) {
+	//		o.AppendDecorators = []decor.Decorator{decor.Percentage()}
+	//	})
+	//}
+	hub := registry.NewRegistryHub(firebase.CloudQueryRegistryURL, registry.WithPluginDirectory(cfg.CloudQuery.PluginDirectory), registry.WithProgress(nil))
 	pm, err := plugin.NewManager(hub, plugin.WithAllowReattach())
 	if err != nil {
 		return nil, err
 	}
 
 	c := &Client{
-		downloadProgress: progressUpdater,
-		cfg:              cfg,
-		Registry:         hub,
-		PluginManager:    pm,
-		instanceId:       instanceId,
+		//downloadProgress: progressUpdater,
+		cfg:           cfg,
+		Registry:      hub,
+		PluginManager: pm,
+		instanceId:    instanceId,
 	}
 
 	if cfg.CloudQuery.Connection.DSN != "" {
@@ -193,9 +193,9 @@ func (c Client) Fetch(ctx context.Context) (*core.FetchResponse, diag.Diagnostic
 		fetchProgress ui.Progress
 		fetchCallback core.FetchUpdateCallback
 	)
-	if ui.DoProgress() {
-		fetchProgress, fetchCallback = buildFetchProgress(ctx, c.cfg.Providers)
-	}
+	//if ui.DoProgress() {
+	//	fetchProgress, fetchCallback = buildFetchProgress(ctx, c.cfg.Providers)
+	//}
 
 	providers := make([]core.ProviderInfo, len(c.cfg.Providers))
 	for i, p := range c.cfg.Providers {
